@@ -1,0 +1,40 @@
+created: 2023-09-27T16:46:20.326Z
+creator:
+  id: cd83dcb6-a889-497c-9b4f-20cc30fb7608
+  name: Pimeng Fu
+deletedAt: null
+deployedAt: null
+deployedCommitId: null
+folderId: null
+id: 07b5eb5a-1383-414b-892d-987c3af70064
+isDeployed: false
+isEditable: true
+isPublic: false
+name: git sync app3
+organizationId: 2f6e8721-cf85-4bce-ba55-f735cc0ac3de
+pages:
+  - id: f9b5f995-ca94-41fa-a065-141cc62104f1
+    isDefault: true
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - f90239e7-97e5-4aa0-88d6-23a1bbea7082
+        - 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+      defaultProfileId: f90239e7-97e5-4aa0-88d6-23a1bbea7082
+    editor:
+      availableProfileIds:
+        - f90239e7-97e5-4aa0-88d6-23a1bbea7082
+        - 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+      defaultProfileId: 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+    preview:
+      availableProfileIds:
+        - f90239e7-97e5-4aa0-88d6-23a1bbea7082
+        - 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+      defaultProfileId: 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+updated: 2023-09-27T16:46:28.409Z
+userPermissions:
+  - manage:applications
+  - read:applications
+  - publish:applications
+  - makePublic:applications

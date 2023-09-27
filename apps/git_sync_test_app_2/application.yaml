@@ -1,0 +1,40 @@
+created: 2023-08-28T15:15:44.587Z
+creator:
+  id: cd83dcb6-a889-497c-9b4f-20cc30fb7608
+  name: Pimeng Fu
+deletedAt: null
+deployedAt: null
+deployedCommitId: null
+folderId: null
+id: e580ce22-3944-40c3-bc41-8b4d13bc85fa
+isDeployed: false
+isEditable: true
+isPublic: false
+name: Git sync test app 2
+organizationId: 2f6e8721-cf85-4bce-ba55-f735cc0ac3de
+pages:
+  - id: c5c63b5f-1e9b-44eb-ab46-4a30ddc7e613
+    isDefault: true
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - f90239e7-97e5-4aa0-88d6-23a1bbea7082
+        - 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+      defaultProfileId: f90239e7-97e5-4aa0-88d6-23a1bbea7082
+    editor:
+      availableProfileIds:
+        - f90239e7-97e5-4aa0-88d6-23a1bbea7082
+        - 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+      defaultProfileId: 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+    preview:
+      availableProfileIds:
+        - f90239e7-97e5-4aa0-88d6-23a1bbea7082
+        - 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+      defaultProfileId: 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+updated: 2023-09-01T14:56:42.172Z
+userPermissions:
+  - manage:applications
+  - read:applications
+  - publish:applications
+  - makePublic:applications

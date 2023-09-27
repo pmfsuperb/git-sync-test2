@@ -1,0 +1,60 @@
+apiPb:
+  blocks:
+    - name: Step1
+      step:
+        integration: e6e7a1ed-11c9-4ce8-97b8-0e3a4393650e
+        restapiintegration:
+          authType: None
+          body: ""
+          bodyType: jsonBody
+          fileFormKey: ""
+          fileName: ""
+          formData: []
+          headers: []
+          httpMethod: GET
+          jsonBody: ""
+          openApiAction: GET /attachments
+          openApiSpecRef: e6e7a1ed-11c9-4ce8-97b8-0e3a4393650e_asana_oas.yaml
+          params:
+            - key: parent
+              value: ""
+              valueOptions: []
+            - key: opt_pretty
+              value: ""
+              valueOptions: []
+          responseType: auto
+          urlBase: ""
+          urlPath: /attachments
+  metadata:
+    description: ""
+    folder: ""
+    id: aae8c309-63ac-4fe3-a7c6-9d47acd061c4
+    name: API1
+    organization: 2f6e8721-cf85-4bce-ba55-f735cc0ac3de
+    tags: {}
+    version: ""
+  trigger:
+    application:
+      id: e580ce22-3944-40c3-bc41-8b4d13bc85fa
+applicationId: e580ce22-3944-40c3-bc41-8b4d13bc85fa
+creator: {}
+folderId: ""
+id: aae8c309-63ac-4fe3-a7c6-9d47acd061c4
+isDeployed: false
+name: API1
+organizationId: 2f6e8721-cf85-4bce-ba55-f735cc0ac3de
+sendEmailOnFailure: null
+settings:
+  profiles:
+    deployed:
+      availableProfileIds:
+        - f90239e7-97e5-4aa0-88d6-23a1bbea7082
+        - 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+      defaultProfileId: f90239e7-97e5-4aa0-88d6-23a1bbea7082
+    editor:
+      availableProfileIds:
+        - f90239e7-97e5-4aa0-88d6-23a1bbea7082
+        - 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+      defaultProfileId: 167fc8e7-0679-40c1-8acc-ca71d69b57f6
+triggerType: 0
+updated: 1693467376974
