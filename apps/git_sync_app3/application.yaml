@@ -32,7 +32,7 @@ settings:
         - f90239e7-97e5-4aa0-88d6-23a1bbea7082
         - 167fc8e7-0679-40c1-8acc-ca71d69b57f6
       defaultProfileId: 167fc8e7-0679-40c1-8acc-ca71d69b57f6
-updated: 2023-09-27T16:46:28.409Z
+updated: 2023-09-27T16:46:20.326Z
 userPermissions:
   - manage:applications
   - read:applications

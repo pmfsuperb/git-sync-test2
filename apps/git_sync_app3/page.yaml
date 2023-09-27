@@ -15,22 +15,22 @@ layouts:
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 13
+          bottomRow: 10
           isLoading: false
           isVisible: true
-          leftColumn: 24
+          leftColumn: 12
           parentId: "0"
-          rightColumn: 36
+          rightColumn: 24
           snapColumns: 12
           text: Label
           textAlign: LEFT
           textStyle: LABEL
           textType: text
-          topRow: 10
+          topRow: 7
           type: TEXT_WIDGET
           verticalAlign: AUTO
           widgetId: nrosfuxvz1
-          widgetLastChange: 2023-09-27T16:46:27.814Z
+          widgetLastChange: 2023-09-27T16:53:12.803Z
           widgetName: Text1
       containerStyle: none
       detachFromLayout: true
@@ -43,12 +43,12 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-09-27T16:46:27.814Z
+      widgetLastChange: 2023-09-27T16:53:03.668Z
       widgetName: MainContainer
     id: 420a7902-8afd-4d9d-a9dc-011307f64cf2
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-09-27T16:46:28.529Z
+    updated: 2023-09-27T16:53:22.260Z
     userPermissions: []
 name: Page1
-updated: 2023-09-27T16:46:28.529Z
+updated: 2023-09-27T16:53:22.260Z
