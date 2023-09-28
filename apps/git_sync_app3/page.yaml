@@ -15,22 +15,22 @@ layouts:
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 10
+          bottomRow: 15
           isLoading: false
           isVisible: true
-          leftColumn: 23
+          leftColumn: 31
           parentId: "0"
-          rightColumn: 35
+          rightColumn: 43
           snapColumns: 12
           text: Label
           textAlign: LEFT
           textStyle: LABEL
           textType: text
-          topRow: 7
+          topRow: 12
           type: TEXT_WIDGET
           verticalAlign: AUTO
           widgetId: nrosfuxvz1
-          widgetLastChange: 2023-09-28T16:55:24.999Z
+          widgetLastChange: 2023-09-28T16:58:50.980Z
           widgetName: Text1
       containerStyle: none
       detachFromLayout: true
@@ -48,7 +48,7 @@ layouts:
     id: 420a7902-8afd-4d9d-a9dc-011307f64cf2
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-09-28T16:55:49.774Z
+    updated: 2023-09-28T16:59:05.251Z
     userPermissions: []
 name: Page1
-updated: 2023-09-28T16:55:49.774Z
+updated: 2023-09-28T16:59:05.251Z
