@@ -60,8 +60,8 @@ layouts:
           isVisible: true
           leftColumn: 14
           parentId: "0"
-          rightColumn: 29
-          snapColumns: 15
+          rightColumn: 24
+          snapColumns: 10
           snapRows: 3
           text: "123"
           textAlign: LEFT
@@ -113,7 +113,7 @@ layouts:
     id: 420a7902-8afd-4d9d-a9dc-011307f64cf2
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-10-05T20:55:34.762Z
+    updated: 2023-10-05T21:01:22.627Z
     userPermissions: []
 name: Page1
-updated: 2023-10-05T20:55:34.762Z
+updated: 2023-10-05T21:01:22.627Z
