@@ -55,7 +55,7 @@ layouts:
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 11
+          bottomRow: 13
           dynamicBindingPathList:
             - key: text
           dynamicTriggerPathList: []
@@ -69,7 +69,7 @@ layouts:
           textAlign: LEFT
           textStyle: LABEL
           textType: text
-          topRow: 8
+          topRow: 10
           type: TEXT_WIDGET
           verticalAlign: AUTO
           widgetId: nrosfuxvz1
@@ -115,7 +115,7 @@ layouts:
     id: 420a7902-8afd-4d9d-a9dc-011307f64cf2
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-10-05T19:48:19.891Z
+    updated: 2023-10-05T19:48:40.353Z
     userPermissions: []
 name: Page1
-updated: 2023-10-05T19:48:19.891Z
+updated: 2023-10-05T19:48:40.353Z
