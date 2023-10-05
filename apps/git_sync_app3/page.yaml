@@ -85,7 +85,7 @@ layouts:
           isDisabled: false
           isLoading: false
           isVisible: true
-          leftColumn: 52
+          leftColumn: 46
           onClick:
             - apiNames:
                 - API2
@@ -93,7 +93,7 @@ layouts:
               newWindow: true
               type: executeApi
           parentId: "0"
-          rightColumn: 64
+          rightColumn: 58
           snapColumns: 12
           text: haha
           topRow: 11
@@ -115,7 +115,7 @@ layouts:
     id: 420a7902-8afd-4d9d-a9dc-011307f64cf2
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-10-05T19:31:08.229Z
+    updated: 2023-10-05T19:31:36.600Z
     userPermissions: []
 name: Page1
-updated: 2023-10-05T19:31:08.229Z
+updated: 2023-10-05T19:31:36.600Z
