@@ -58,9 +58,9 @@ layouts:
           dynamicTriggerPathList: []
           isLoading: false
           isVisible: true
-          leftColumn: 14
+          leftColumn: 20
           parentId: "0"
-          rightColumn: 24
+          rightColumn: 30
           snapColumns: 10
           snapRows: 3
           text: "123"
@@ -113,7 +113,7 @@ layouts:
     id: 420a7902-8afd-4d9d-a9dc-011307f64cf2
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-10-05T21:01:47.255Z
+    updated: 2023-10-05T21:02:05.007Z
     userPermissions: []
 name: Page1
-updated: 2023-10-05T21:01:47.255Z
+updated: 2023-10-05T21:02:05.007Z
