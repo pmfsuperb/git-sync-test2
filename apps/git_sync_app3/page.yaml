@@ -48,16 +48,13 @@ layouts:
         apiDeps: {}
         apiNames: []
         pageLoadActions:
-          apiDeps:
-            API1: []
-          apiNames:
-            - API1
+          apiDeps: {}
+          apiNames: []
       canExtend: true
       children:
         - animateLoading: true
           bottomRow: 13
-          dynamicBindingPathList:
-            - key: text
+          dynamicBindingPathList: []
           dynamicTriggerPathList: []
           isLoading: false
           isVisible: true
@@ -65,7 +62,7 @@ layouts:
           parentId: "0"
           rightColumn: 25
           snapColumns: 12
-          text: "{{API1.response}}"
+          text: "123"
           textAlign: LEFT
           textStyle: LABEL
           textType: text
@@ -115,7 +112,7 @@ layouts:
     id: 420a7902-8afd-4d9d-a9dc-011307f64cf2
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-10-05T19:48:40.353Z
+    updated: 2023-10-05T19:53:04.015Z
     userPermissions: []
 name: Page1
-updated: 2023-10-05T19:48:40.353Z
+updated: 2023-10-05T19:53:04.015Z
