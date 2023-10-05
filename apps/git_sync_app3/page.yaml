@@ -61,9 +61,9 @@ layouts:
           dynamicTriggerPathList: []
           isLoading: false
           isVisible: true
-          leftColumn: 10
+          leftColumn: 13
           parentId: "0"
-          rightColumn: 22
+          rightColumn: 25
           snapColumns: 12
           text: "{{API1.response}}"
           textAlign: LEFT
@@ -115,7 +115,7 @@ layouts:
     id: 420a7902-8afd-4d9d-a9dc-011307f64cf2
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-10-05T19:44:53.555Z
+    updated: 2023-10-05T19:47:34.025Z
     userPermissions: []
 name: Page1
-updated: 2023-10-05T19:44:53.555Z
+updated: 2023-10-05T19:47:34.025Z
