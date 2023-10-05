@@ -53,7 +53,7 @@ layouts:
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 13
+          bottomRow: 6
           dynamicBindingPathList: []
           dynamicTriggerPathList: []
           isLoading: false
@@ -62,11 +62,12 @@ layouts:
           parentId: "0"
           rightColumn: 25
           snapColumns: 12
+          snapRows: 1
           text: "123"
           textAlign: LEFT
           textStyle: LABEL
           textType: text
-          topRow: 10
+          topRow: 5
           type: TEXT_WIDGET
           verticalAlign: AUTO
           widgetId: nrosfuxvz1
@@ -112,7 +113,7 @@ layouts:
     id: 420a7902-8afd-4d9d-a9dc-011307f64cf2
     layoutOnLoadActions: []
     messages: []
-    updated: 2023-10-05T19:53:04.015Z
+    updated: 2023-10-05T19:57:50.655Z
     userPermissions: []
 name: Page1
-updated: 2023-10-05T19:53:04.015Z
+updated: 2023-10-05T19:57:50.655Z
