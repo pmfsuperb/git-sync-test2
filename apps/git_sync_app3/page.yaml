@@ -2,36 +2,103 @@ applicationId: 07b5eb5a-1383-414b-892d-987c3af70064
 id: f9b5f995-ca94-41fa-a065-141cc62104f1
 isHidden: false
 layouts:
-  - actionUpdates: []
-    dsl:
+  - dsl:
+      apis:
+        apiMap:
+          1c20a740-a8a5-43a7-9d2c-67d6391eba93:
+            dynamicTriggerPathList:
+              - key: onError
+            id: 1c20a740-a8a5-43a7-9d2c-67d6391eba93
+            onError:
+              - id: 673705aa-21ab-4051-90db-409b1bddab27
+                message: "{{API1.error}}"
+                style: error
+                type: showAlert
+          3bb9ee06-b369-4f4b-900f-5742f7b7b948:
+            dynamicTriggerPathList:
+              - key: onError
+            id: 3bb9ee06-b369-4f4b-900f-5742f7b7b948
+            onError:
+              - id: 7f940068-7790-4a04-a4f0-d2412afb4af6
+                message: "{{API2.error}}"
+                style: error
+                type: showAlert
+          b941cc45-1d02-4fcb-acf2-00034a919dde:
+            dynamicTriggerPathList:
+              - key: onError
+            id: b941cc45-1d02-4fcb-acf2-00034a919dde
+            onError:
+              - id: 4f62a1a7-b563-458e-a6a1-8081a42b63c9
+                message: "{{API1.error}}"
+                style: error
+                type: showAlert
+          e091ea62-4359-4a76-ba5c-03421cfa0f9b:
+            dynamicTriggerPathList:
+              - key: onError
+            id: e091ea62-4359-4a76-ba5c-03421cfa0f9b
+            onError:
+              - id: 95e06e95-6466-438c-918c-d75bb1aaadda
+                message: "{{API2.error}}"
+                style: error
+                type: showAlert
       backgroundColor: none
       bottomRow: 107
       cachedData:
         apiDeps: {}
         apiNames: []
         pageLoadActions:
-          apiDeps: {}
-          apiNames: []
+          apiDeps:
+            API1: []
+          apiNames:
+            - API1
       canExtend: true
       children:
         - animateLoading: true
-          bottomRow: 15
+          bottomRow: 14
+          dynamicBindingPathList:
+            - key: text
+          dynamicTriggerPathList: []
           isLoading: false
           isVisible: true
-          leftColumn: 31
+          leftColumn: 24
           parentId: "0"
-          rightColumn: 43
+          rightColumn: 36
           snapColumns: 12
-          text: Label
+          text: "{{API1.response}}"
           textAlign: LEFT
           textStyle: LABEL
           textType: text
-          topRow: 12
+          topRow: 11
           type: TEXT_WIDGET
           verticalAlign: AUTO
           widgetId: nrosfuxvz1
-          widgetLastChange: 2023-09-28T16:58:50.980Z
           widgetName: Text1
+        - animateLoading: true
+          bottomRow: 13
+          buttonStyle: PRIMARY_BUTTON
+          docsUrl: https://docs.superblocks.com/components/button
+          dynamicBindingPathList: []
+          dynamicTriggerPathList:
+            - key: onClick
+          isDefaultClickDisabled: true
+          isDisabled: false
+          isLoading: false
+          isVisible: true
+          leftColumn: 61
+          onClick:
+            - apiNames:
+                - API2
+              id: fvqqh25m3a
+              newWindow: true
+              type: executeApi
+          parentId: "0"
+          rightColumn: 73
+          snapColumns: 12
+          text: haha
+          topRow: 10
+          type: BUTTON_WIDGET
+          widgetId: bvrkes4g67
+          widgetName: Button1
       containerStyle: none
       detachFromLayout: true
       dynamicBindingPathList: []
@@ -43,12 +110,6 @@ layouts:
       type: CANVAS_WIDGET
       version: 6
       widgetId: "0"
-      widgetLastChange: 2023-09-28T16:54:39.748Z
       widgetName: MainContainer
     id: 420a7902-8afd-4d9d-a9dc-011307f64cf2
-    layoutOnLoadActions: []
-    messages: []
-    updated: 2023-09-28T17:08:28.400Z
-    userPermissions: []
 name: Page1
-updated: 2023-09-28T17:08:28.400Z

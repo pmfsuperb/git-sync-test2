@@ -1,0 +1,31 @@
+blocks:
+  - name: Step1
+    step:
+      integration: javascript
+      javascript:
+        body: >
+          /*
+           * You can use Javascript Functions to:
+           *   1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
+           *   2. Write business logic referencing UI components (ex. Table1.selectedRow.id)
+           *   3. Make http calls via axios
+           *
+           * Moment.js (moment), lodash.js (_), axios, aws-sdk, base64url, jsonwebtoken, and xmlbuilder2 libraries are currently supported.
+           */
+
+          const obj = {str: "hello world"};
+
+          console.log(obj.str);
+
+          return obj;
+metadata:
+  description: ""
+  folder: ""
+  id: e091ea62-4359-4a76-ba5c-03421cfa0f9b
+  name: API2
+  organization: 2f6e8721-cf85-4bce-ba55-f735cc0ac3de
+  tags: {}
+  version: ""
+trigger:
+  application:
+    id: 07b5eb5a-1383-414b-892d-987c3af70064

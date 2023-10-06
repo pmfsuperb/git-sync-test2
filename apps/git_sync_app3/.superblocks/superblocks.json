@@ -1,5 +1,8 @@
 {
-  "apis": {},
+  "apis": {
+    "1c20a740-a8a5-43a7-9d2c-67d6391eba93": "API1",
+    "e091ea62-4359-4a76-ba5c-03421cfa0f9b": "API2"
+  },
   "configType": "APPLICATION",
   "defaultPageId": "f9b5f995-ca94-41fa-a065-141cc62104f1",
   "id": "07b5eb5a-1383-414b-892d-987c3af70064"
