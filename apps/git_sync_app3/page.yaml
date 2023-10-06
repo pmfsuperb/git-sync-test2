@@ -74,7 +74,7 @@ layouts:
           widgetId: nrosfuxvz1
           widgetName: Text1
         - animateLoading: true
-          bottomRow: 13
+          bottomRow: 16
           buttonStyle: PRIMARY_BUTTON
           docsUrl: https://docs.superblocks.com/components/button
           dynamicBindingPathList: []
@@ -84,7 +84,7 @@ layouts:
           isDisabled: false
           isLoading: false
           isVisible: true
-          leftColumn: 48
+          leftColumn: 50
           onClick:
             - apiNames:
                 - API2
@@ -92,10 +92,10 @@ layouts:
               newWindow: true
               type: executeApi
           parentId: "0"
-          rightColumn: 60
+          rightColumn: 62
           snapColumns: 12
           text: haha
-          topRow: 10
+          topRow: 13
           type: BUTTON_WIDGET
           widgetId: bvrkes4g67
           widgetName: Button1
