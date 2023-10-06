@@ -84,7 +84,7 @@ layouts:
           isDisabled: false
           isLoading: false
           isVisible: true
-          leftColumn: 48
+          leftColumn: 32
           onClick:
             - apiNames:
                 - API2
@@ -92,7 +92,7 @@ layouts:
               newWindow: true
               type: executeApi
           parentId: "0"
-          rightColumn: 54
+          rightColumn: 38
           snapColumns: 12
           text: haha
           topRow: 14
