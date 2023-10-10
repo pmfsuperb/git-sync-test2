@@ -3,8 +3,7 @@ creator:
   id: cd83dcb6-a889-497c-9b4f-20cc30fb7608
   name: Pimeng Fu
 deletedAt: null
-deployedAt: null
-deployedCommitId: b5919484-2e2e-4c8a-9b19-14cf1ce420f2
+deployedCommitId: fe7beb42-83ce-4e89-a541-3f227998a700
 folderId: null
 id: 07b5eb5a-1383-414b-892d-987c3af70064
 isDeployed: true
@@ -32,7 +31,6 @@ settings:
         - f90239e7-97e5-4aa0-88d6-23a1bbea7082
         - 167fc8e7-0679-40c1-8acc-ca71d69b57f6
       defaultProfileId: 167fc8e7-0679-40c1-8acc-ca71d69b57f6
-updated: 2023-09-28T16:55:31.233Z
 userPermissions:
   - manage:applications
   - read:applications
