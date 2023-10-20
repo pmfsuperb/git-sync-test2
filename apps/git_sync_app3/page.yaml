@@ -61,7 +61,8 @@ layouts:
           parentId: "0"
           rightColumn: 36
           snapColumns: 12
-          text: haha
+          text: |
+            bacd
           textAlign: LEFT
           textStyle: LABEL
           textType: text
