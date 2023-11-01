@@ -3,7 +3,7 @@ blocks:
     step:
       integration: javascript
       javascript:
-        body: >
+        body: |
           /*
            * You can use Javascript Functions to:
            *   1. Transform the output of previous Steps by referencing their output (ex. Step1.output)
@@ -14,9 +14,7 @@ blocks:
            */
 
           const obj = {str: "hello world"};
-
           console.log(obj.str);
-
           return obj;
 metadata:
   description: ""

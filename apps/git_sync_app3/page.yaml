@@ -42,7 +42,6 @@ layouts:
                 style: error
                 type: showAlert
       backgroundColor: none
-      bottomRow: 107
       cachedData:
         apiDeps: {}
         apiNames: []
@@ -51,62 +50,154 @@ layouts:
           apiNames: []
       canExtend: true
       children:
-        - animateLoading: true
-          bottomRow: 14
-          dynamicBindingPathList: []
-          dynamicTriggerPathList: []
+        - canExtend: true
+          children:
+            - backgroundColor: none
+              canExtend: true
+              children:
+                - animateLoading: true
+                  dynamicBindingPathList: []
+                  dynamicTriggerPathList: []
+                  gridColumns: 12
+                  height:
+                    mode: gridUnit
+                    value: 3
+                  isLoading: false
+                  isVisible: true
+                  left:
+                    mode: gridUnit
+                    value: 36
+                  parentId: 90yj4no3id
+                  text: haha
+                  textAlign: LEFT
+                  textStyle: LABEL
+                  textType: text
+                  top:
+                    mode: gridUnit
+                    value: 7
+                  type: TEXT_WIDGET
+                  verticalAlign: AUTO
+                  widgetId: nrosfuxvz1
+                  widgetName: Text1
+                  width:
+                    mode: gridUnit
+                    value: 12
+                - animateLoading: true
+                  buttonStyle: PRIMARY_BUTTON
+                  docsUrl: https://docs.superblocks.com/components/button
+                  dynamicBindingPathList: []
+                  dynamicTriggerPathList:
+                    - key: onClick
+                  gridColumns: 12
+                  height:
+                    mode: gridUnit
+                    value: 3
+                  isDefaultClickDisabled: true
+                  isDisabled: false
+                  isLoading: false
+                  isVisible: true
+                  left:
+                    mode: gridUnit
+                    value: 61
+                  onClick:
+                    - apiNames:
+                        - API2
+                      id: fvqqh25m3a
+                      newWindow: true
+                      type: executeApi
+                  parentId: 90yj4no3id
+                  text: haha
+                  top:
+                    mode: gridUnit
+                    value: 10
+                  type: BUTTON_WIDGET
+                  widgetId: bvrkes4g67
+                  widgetName: Button1
+                  width:
+                    mode: gridUnit
+                    value: 12
+              containerStyle: none
+              detachFromLayout: true
+              dynamicBindingPathList: []
+              dynamicTriggerPathList: []
+              gridColumns: 96
+              height:
+                mode: gridUnit
+                value: 106
+              layout: FIXED_GRID
+              left:
+                mode: gridUnit
+                value: 0
+              minHeight:
+                mode: px
+                value: 1292
+              padding:
+                bottom:
+                  mode: px
+                  value: 12
+                left:
+                  mode: px
+                  value: 16
+                right:
+                  mode: px
+                  value: 16
+                top:
+                  mode: px
+                  value: 12
+              parentId: 90yj4n3bwa
+              top:
+                mode: gridUnit
+                value: 0
+              type: CANVAS_WIDGET
+              widgetId: 90yj4no3id
+              widgetName: Canvas1
+              width:
+                mode: gridUnit
+                value: 0
+          detachFromLayout: true
+          dragDisabled: true
+          gridColumns: 96
+          height:
+            mode: gridUnit
+            value: 99
           isLoading: false
           isVisible: true
-          leftColumn: 24
+          left:
+            mode: gridUnit
+            value: 0
           parentId: "0"
-          rightColumn: 36
-          snapColumns: 12
-          text: haha
-          textAlign: LEFT
-          textStyle: LABEL
-          textType: text
-          topRow: 11
-          type: TEXT_WIDGET
-          verticalAlign: AUTO
-          widgetId: nrosfuxvz1
-          widgetName: Text1
-        - animateLoading: true
-          bottomRow: 13
-          buttonStyle: PRIMARY_BUTTON
-          docsUrl: https://docs.superblocks.com/components/button
-          dynamicBindingPathList: []
-          dynamicTriggerPathList:
-            - key: onClick
-          isDefaultClickDisabled: true
-          isDisabled: false
-          isLoading: false
-          isVisible: true
-          leftColumn: 61
-          onClick:
-            - apiNames:
-                - API2
-              id: fvqqh25m3a
-              newWindow: true
-              type: executeApi
-          parentId: "0"
-          rightColumn: 73
-          snapColumns: 12
-          text: haha
-          topRow: 10
-          type: BUTTON_WIDGET
-          widgetId: bvrkes4g67
-          widgetName: Button1
-      containerStyle: none
+          shouldScrollContents: true
+          top:
+            mode: gridUnit
+            value: 0
+          type: SECTION_WIDGET
+          widgetId: 90yj4n3bwa
+          widgetName: Section1
+          width:
+            mode: gridUnit
+            value: 96
       detachFromLayout: true
       dynamicBindingPathList: []
-      dynamicTriggerPathList: []
-      minHeight: 1292
-      snapColumns: 96
-      snapRows: 99
-      topRow: 0
-      type: CANVAS_WIDGET
-      version: 6
+      gridColumns: 96
+      height:
+        mode: gridUnit
+        value: 99
+      left:
+        mode: gridUnit
+        value: 0
+      stateVars:
+        stateVarMap: {}
+      timers:
+        timerMap: {}
+      top:
+        mode: gridUnit
+        value: 0
+      type: PAGE_WIDGET
+      version: 7
       widgetId: "0"
-      widgetName: MainContainer
+      widgetName: Page
+      width:
+        mode: gridUnit
+        value: 0
     id: 420a7902-8afd-4d9d-a9dc-011307f64cf2
 name: Page1
