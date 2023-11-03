@@ -4,43 +4,7 @@ isHidden: false
 layouts:
   - dsl:
       apis:
-        apiMap:
-          1c20a740-a8a5-43a7-9d2c-67d6391eba93:
-            dynamicTriggerPathList:
-              - key: onError
-            id: 1c20a740-a8a5-43a7-9d2c-67d6391eba93
-            onError:
-              - id: 673705aa-21ab-4051-90db-409b1bddab27
-                message: "{{API1.error}}"
-                style: error
-                type: showAlert
-          3bb9ee06-b369-4f4b-900f-5742f7b7b948:
-            dynamicTriggerPathList:
-              - key: onError
-            id: 3bb9ee06-b369-4f4b-900f-5742f7b7b948
-            onError:
-              - id: 7f940068-7790-4a04-a4f0-d2412afb4af6
-                message: "{{API2.error}}"
-                style: error
-                type: showAlert
-          b941cc45-1d02-4fcb-acf2-00034a919dde:
-            dynamicTriggerPathList:
-              - key: onError
-            id: b941cc45-1d02-4fcb-acf2-00034a919dde
-            onError:
-              - id: 4f62a1a7-b563-458e-a6a1-8081a42b63c9
-                message: "{{API1.error}}"
-                style: error
-                type: showAlert
-          e091ea62-4359-4a76-ba5c-03421cfa0f9b:
-            dynamicTriggerPathList:
-              - key: onError
-            id: e091ea62-4359-4a76-ba5c-03421cfa0f9b
-            onError:
-              - id: 95e06e95-6466-438c-918c-d75bb1aaadda
-                message: "{{API2.error}}"
-                style: error
-                type: showAlert
+        apiMap: {}
       backgroundColor: none
       cachedData:
         apiDeps: {}
@@ -56,8 +20,6 @@ layouts:
               canExtend: true
               children:
                 - animateLoading: true
-                  dynamicBindingPathList: []
-                  dynamicTriggerPathList: []
                   gridColumns: 12
                   height:
                     mode: gridUnit
@@ -66,53 +28,19 @@ layouts:
                   isVisible: true
                   left:
                     mode: gridUnit
-                    value: 36
-                  parentId: 90yj4no3id
-                  text: haha
+                    value: 31
+                  parentId: 2cku0toazip
+                  text: Label
                   textAlign: LEFT
                   textStyle: LABEL
                   textType: text
                   top:
                     mode: gridUnit
-                    value: 15
+                    value: 12
                   type: TEXT_WIDGET
                   verticalAlign: AUTO
                   widgetId: nrosfuxvz1
                   widgetName: Text1
-                  width:
-                    mode: gridUnit
-                    value: 12
-                - animateLoading: true
-                  buttonStyle: PRIMARY_BUTTON
-                  docsUrl: https://docs.superblocks.com/components/button
-                  dynamicBindingPathList: []
-                  dynamicTriggerPathList:
-                    - key: onClick
-                  gridColumns: 12
-                  height:
-                    mode: gridUnit
-                    value: 3
-                  isDefaultClickDisabled: true
-                  isDisabled: false
-                  isLoading: false
-                  isVisible: true
-                  left:
-                    mode: gridUnit
-                    value: 61
-                  onClick:
-                    - apiNames:
-                        - API2
-                      id: fvqqh25m3a
-                      newWindow: true
-                      type: executeApi
-                  parentId: 90yj4no3id
-                  text: haha
-                  top:
-                    mode: gridUnit
-                    value: 10
-                  type: BUTTON_WIDGET
-                  widgetId: bvrkes4g67
-                  widgetName: Button1
                   width:
                     mode: gridUnit
                     value: 12
@@ -123,7 +51,7 @@ layouts:
               gridColumns: 96
               height:
                 mode: gridUnit
-                value: 106
+                value: 107
               layout: FIXED_GRID
               left:
                 mode: gridUnit
@@ -144,12 +72,12 @@ layouts:
                 top:
                   mode: px
                   value: 12
-              parentId: 90yj4n3bwa
+              parentId: lm2jrimm2x
               top:
                 mode: gridUnit
                 value: 0
               type: CANVAS_WIDGET
-              widgetId: 90yj4no3id
+              widgetId: 2cku0toazip
               widgetName: Canvas1
               width:
                 mode: gridUnit
@@ -171,7 +99,7 @@ layouts:
             mode: gridUnit
             value: 0
           type: SECTION_WIDGET
-          widgetId: 90yj4n3bwa
+          widgetId: lm2jrimm2x
           widgetName: Section1
           width:
             mode: gridUnit
